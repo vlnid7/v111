@@ -13,5 +13,7 @@ func main () {
 		i bool=false
 		j=h&&i; k=h||i
 	)
-	fmt.Print(j,k)
+	fmt.Println(j,k)
+	n:=a^b
+	fmt.Println(n)
 }
