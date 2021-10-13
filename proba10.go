@@ -16,4 +16,7 @@ func main () {
 	fmt.Println(j,k)
 	n:=a^b
 	fmt.Println(n)
+	o:=a%b
+	fmt.Println(o,"Изменено")
+
 }
