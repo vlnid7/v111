@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main () {
 	var b int
@@ -13,4 +15,29 @@ func main () {
 			}
 	}
 	fmt.Println("Сумма чисел от 0 до 9 равна", b)
+	zero:=0
+	switch zero {
+	case 0:
+		for k:=-5; k<6; k++ {
+			if k<0 {
+				fmt.Println("k - отрицательное число")
+				fmt.Println(k, "\t")
+			}
+			if k==0 {
+				fmt.Println("k равно", k, ", продолжаем")
+				continue
+			}
+			if k>0 {
+				break
+			}
+		}
+		fmt.Println("k больше нуля")
+	case 4:
+		fallthrough
+	default:
+		fmt.Println("По умолчанию")
+
+
+	}
+
 }
