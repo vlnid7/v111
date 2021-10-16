@@ -10,4 +10,7 @@ func main () {
 	b=b+b
 	c:=*p
 	fmt.Println(c)
+	point:=new(float32)
+	*point=b
+	fmt.Println(b)
 }
