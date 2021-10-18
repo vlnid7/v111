@@ -5,7 +5,7 @@ import "fmt"
 func main () {
 
 const a int = 25
-var d string = string(‘\u+21E2‘)
+var d string = string('t')
 
 fmt.Println(a,d)
 
